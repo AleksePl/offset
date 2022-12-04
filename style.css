@@ -1,0 +1,356 @@
+html,
+body {
+    background-color: #ffffff;
+   margin: auto;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 150%;
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#container {
+    width: 100%;
+    
+    align-content: left;
+    margin-left: 9%;
+    margin-right: 10px;
+    
+}
+div.slidebox {
+    background-color: #ffffff;
+    width: 550px;
+    height: 250px;
+    position: relative;
+    float: left;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    
+}
+
+div.slidebox img {
+    position: absolute;
+    z-index: 2;
+    width: 550px;
+    height: 250px;
+}
+div.slidebox div.content {
+    position: center;
+    z-index: 2;
+   padding: 10px;
+}
+.button {
+    width: 600px;
+
+}
+.sum {
+   text-align: end;
+    text-align: center;
+    
+}
+.goodbutton, .goodbutton:visited {
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    box-shadow: 0 1px 3px #000;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px; 
+    min-width: 120px;
+    text-align: center;
+    margin: 20px 50px 50px 180px;
+    letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.goodbutton:hover {
+    background-color: #000;
+    color: #ccc;
+}
+.goodbutton:active {
+    top: 1px
+}
+.green.goodbutton, .green.goodbutton:visited {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.green.goodbutton, .green.goodbutton:hover {
+    background-color: rgba(0, 0, 0, 0.413);
+    color: #fff;
+}
+.jpegi {
+  margin-bottom: 25px;
+}
+   
+/*index header*/
+header {
+    background: #353637;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 50px;
+    margin-bottom: 4px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;    
+   }
+   .container > div {
+       float: left;
+   }
+   .container > div > h1 {
+       margin: 0;
+   }
+   header nav {
+       float: right;
+       margin-top: 10px;
+   }
+   header a:hover {
+       color: #ccc;
+       font-weight: bold;
+   }
+img {
+    height: 100px;
+    width: 150px;
+}
+
+
+
+/*index
+*/
+.target {
+  margin: 10px 180px 0 180px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(126, 126, 126);
+  background-color: #fff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 7px;
+  
+}
+/*.deviz {
+  margin: 20px 200px 20px 200px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(126, 126, 126);
+  background-color: #fff;
+  padding: 50px 20px 50px 20px;
+  border-radius: 7px;
+}*/
+.backk {
+  background-color: #dadada;
+}
+.otac {
+    /*margin: 5px 10px 10px 10px;*/
+    background-color: rgb(255, 255, 204);
+    border-radius: 6px;
+    padding: 10px 20px 20px 20px;
+    /*text-align: center;*/
+}
+.proimg {
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+/*booking*/
+.brone {
+  margin: 10px 200px 20px 200px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(126, 126, 126);
+  background-color: #fff;
+  padding: 50px 20px 20px 20px;
+  border-radius: 9px;
+}
+.gorl {
+  display: inline-flex;
+  margin:  10px 50px 20px 20px ;
+  align-items: left;
+  
+
+}
+.regio {
+  display: inline;
+  margin:  20px 90px 20px 60px ;
+  align-items: left;
+  height: 40px;
+  min-width: 120px;
+  border-radius: 9px;
+  font-weight: bold
+}
+#people {
+  min-width: 100px;
+  border-radius: 9px;
+  height: 40px;
+  padding-right: 5px;
+    display: inline;
+    margin:  20px 90px 20px 60px ;
+    font-weight: bold
+}
+#date {
+  min-width: 120px;
+  border-radius: 9px;
+  height: 40px;
+  padding-right: 15px;
+    display: inline;
+    margin:  20px 90px 20px 60px ;
+    font-weight: bold
+} 
+.razdel {
+  margin: 0 0 15px 0;
+}
+.razdelniz {
+  margin: 0 0 10px 35%;
+  text-align: left;
+}
+/*
+#subsub {
+  min-width: 260px;
+  min-height: 50px;
+  border-radius: 9px;
+  border: #fff;
+  font-size: large;
+  box-shadow: 5px 5px 5px #000 ;
+  background-color: #8f8c8c;
+*/
+/*#done {
+    min-width: 300px;
+    min-height: 40px;
+    font-size: x-large;
+    border-radius: 9px;
+    font-weight: bold;
+}
+*/
+/*VOTE*/
+.containerb {
+  position: relative;
+  width: 50%;
+}
+.containerb img {
+  width: 100%;
+  height: auto;
+}
+.containerb .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.containerb .btn:hover {
+  background-color: black;
+}
+.butn {
+  margin: 100% 0 0 0;
+
+}
+/*FOOTER */
+  
+  footer {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #161414;
+	height: auto;
+	width: 100%;
+	padding-top: 5px;
+	color: #8f8c8c;
+    margin-top: 10px;
+  }
+  .footerin {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+  }
+  .footerin h3 {
+	font-size: rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	line-height: 1rem;
+  }
+  .footerin p {
+	max-width: 500px;
+	margin: 8px auto;
+	line-height: 30px;
+	font-size: 15px;
+	color: #a6abb3;
+  }
+  .linkicon {
+	list-style: none;
+	display: flex;
+	margin: 1rem 0 0 0;
+  }
+  .linkicon li {
+	margin: 0 25px;
+  }
+  .copyright {
+	background: #121111;
+	width: 1320px;
+	padding: 3px;
+	padding-bottom: 45px;
+	text-align: right;
+  }
+  .copyright p{
+  float: left;
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+  }
+  .copyright p a {
+	color: #627b85;
+	font-size: 14px;
+	text-decoration: none;
+  }
+  .copyright span{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+  }
+  .footermenu {
+	float: right;
+  
+  }
+  .footermenu ul{
+	display: flex;
+  }
+  .footermenu ul li{
+  padding-right: 60px;
+  display: block;
+  padding-bottom: 15px;
+  }
+  .footermenu ul li a {
+	color: #a3a6ab;
+	text-decoration: none;
+	font-size: 14px;
+  }
+  .footermenu ul li a:hover {
+	color: #ffffff;
+  }
+	 
